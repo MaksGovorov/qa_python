@@ -89,8 +89,3 @@ class TestBooksCollector:
         genre = collector.get_book_genre('Ледокол')
         assert genre == 'Ужасы'
 
-    def test_outside_class(self, collector):
-        collector.add_new_book('Тест')
-        collector.set_book_genre('Тест', 'Фантастика')
-        assert collector.get_book_genre('Тест') == 'Фантастика'
-

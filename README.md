@@ -12,3 +12,5 @@
 - test_add_book_in_favorites_cannot_add_twice — проверяет, что одну и ту же книгу нельзя добавить в избранное дважды.  
 - test_delete_book_from_favorites — проверяет удаление книги из избранного.  
 - test_get_books_with_specific_genre_parametrized — проверяет возврат списка книг по заданному жанру (параметризованные тесты).
+- test_get_books_genre_returns_dict — проверяет, возвращается словарь всех книг с их жанрами.
+- test_get_book_genre_returns_correct_genre — проверяет, что у книги корректный жанр.
